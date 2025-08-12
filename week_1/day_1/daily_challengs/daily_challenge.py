@@ -9,13 +9,12 @@
 # print(my_list)
 
 # ------ Challenge 2
+str=input("entrer un string")
+newStr=""
+for i in range (len(str)):
+   if i == len(str) - 1 or str[i] != str[i + 1]:
+        newStr+=str[i]
+print(f"{newStr}")
 
-text = input('entre your text : ')
-
-result = "" 
-if char in text :
-    if  not result or char != result[-1] :
-        result += char 
-print(result)
 
 
