@@ -1,12 +1,12 @@
 # ------ Challenge 1
 
-# number = int (input("give your number : "))
-# lenght = int (input("give your lenght : "))
+number = int (input("gave your number : "))
+lenght = int (input("gave your lenght : "))
  
-# my_list =[]
-# for i in range (1, lenght +1) : 
-#     my_list.append(number*i)
-# print(my_list)
+my_list =[]
+for i in range (1, lenght +1) : 
+    my_list.append(number*i)
+print(my_list)
 
 # ------ Challenge 2
 str=input("entrer un string")

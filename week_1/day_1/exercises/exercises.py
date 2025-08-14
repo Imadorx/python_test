@@ -11,7 +11,7 @@ print (resulte)
 
 # ------ Exercise 3
 
-UserName = input("give me your name : ")
+UserName = input("gave me your name : ")
 if UserName == "imad" : 
    print ("you are my brother")
 else:
