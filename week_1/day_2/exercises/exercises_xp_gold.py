@@ -50,7 +50,7 @@ def calculate_pattern_sum(x):
     num4 = int(x_str * 4)
     
     total = num1 + num2 + num3 + num4
-    return totalالرئيسية
+    return total
 print(result = calculate_pattern_sum(3))
   
 
