@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update Post</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="/">My Blog</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="card shadow-sm">
+            <div class="card-header">
+                <h5>Update Post</h5>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="/update-post/{{ post.p_id }}">
+                    <div class="mb-3">
+                        <input type="text" class="form-control" name="title" value="{{ post.title }}" required>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" name="p_content" rows="5" required>{{ post.p_content }}</textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Update Post</button>
+                    <a href="/" class="btn btn-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
