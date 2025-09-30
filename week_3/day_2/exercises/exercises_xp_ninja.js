@@ -1,9 +1,18 @@
-// ===== Exercise 1
+let persone ={
+  FullName: "imad eddine kaaouane",
+  Mass: 95 ,
+  Height : 178,
+Bmi: function() {
+    return this.Mass / (this.Height * this.Height);
+  }
+};
 
-// ===== Exercise 2
 
-// ===== Exercise 3
-
-// ===== Exercise 4
-
-// ===== Exercise ...
+let personeOne ={
+  FullName: "sami hilal",
+  Mass: 80 ,
+  Height : 175
+  Bmi: function() {
+    return this.Mass / (this.Height * this.Height);
+  }
+};
