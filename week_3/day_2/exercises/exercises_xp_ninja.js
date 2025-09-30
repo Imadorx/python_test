@@ -12,7 +12,7 @@ let personeOne ={
   FullName: "sami hilal",
   Mass: 80 ,
   Height : 175
-  Bmi: function() {
-    return this.Mass / (this.Height * this.Height);
-  }
+//   Bmi: function() {
+//     return this.Mass / (this.Height * this.Height);
+//   }
 };
