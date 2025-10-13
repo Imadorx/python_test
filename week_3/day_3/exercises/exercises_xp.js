@@ -72,6 +72,25 @@ function myBill (){
 myBill();
 console.log(stock);
 
+
+// EXERCICE 3
+function changeEnough(itemPrice, amountOfChange) {
+
+  const coinValues = [0.25, 0.10, 0.05, 0.01];
+
+
+  let totalChange = 0;
+  for (let i = 0; i < amountOfChange.length; i++) {
+    totalChange += amountOfChange[i] * coinValues[i];
+  }
+
+  return totalChange >= itemPrice;
+}
+
+console.log(changeEnough(4.25, [25, 20, 5, 0])); 
+console.log(changeEnough(14.11, [2, 100, 0, 0])); 
+console.log(changeEnough(0.75, [0, 0, 20, 5]));   
+
 // exercice 4
 
 function hotelCost(){
@@ -208,7 +227,9 @@ function totalVacationCost(){
 // </script>
 // </body>
 // </html> -->
-// exercice 6
+
+
+//  exercice 6 
 
 
 // <div id="navBar">
@@ -246,7 +267,7 @@ function totalVacationCost(){
 
 // </script>
 
-// EXERCICE 7
+EXERCICE 7
 
 
     let allBooks = [BookOne={
